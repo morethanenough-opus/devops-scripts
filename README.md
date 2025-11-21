@@ -11,6 +11,7 @@ devops-scripts is a collection of automation scripts designed to streamline and 
 ### Deployment
 - **Automated build and deployment**: Script to automate the build and deployment process using Docker and Kubernetes.
 - **Infrastructure provisioning**: Scripts to provision infrastructure resources such as AWS EC2 instances, RDS databases, and S3 buckets.
+- **CI/CD pipeline**: Script to set up and manage continuous integration and continuous deployment pipelines using Jenkins.
 
 ### Monitoring
 - **Monitoring and logging setup**: Script to set up Prometheus, Grafana, and ELK stack for monitoring and logging.
@@ -20,9 +21,12 @@ devops-scripts is a collection of automation scripts designed to streamline and 
 - **Security audit and compliance**: Script to perform security audits and ensure compliance with industry standards.
 - **Secret management**: Scripts for secure management of sensitive data using Hashicorp's Vault.
 
+### Backup and Restore
+- **Automated backup and restore**: Scripts for automated backup and restore of critical data.
+
 ### Miscellaneous
-- **Backup and restore**: Scripts for automated backup and restore of critical data.
-- **CI/CD pipeline**: Scripts to set up and manage continuous integration and continuous deployment pipelines using Jenkins.
+- **Environment setup**: Script to set up environment variables and configurations for different environments.
+- **Logging and error handling**: Scripts to handle logging and error handling in scripts.
 
 ## Technologies Used
 -------------------
@@ -63,6 +67,7 @@ devops-scripts is a collection of automation scripts designed to streamline and 
 - Run scripts using `docker-compose`
 - Configure scripts using `terraform`
 - Monitor and log using `prometheus`, `grafana`, and `elasticsearch`
+- Use `env-setup` script to set up environment variables and configurations
 
 ## Contributing
 ------------
